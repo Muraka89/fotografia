@@ -1,0 +1,24 @@
+#principal {
+    text-align: center;
+}
+
+img {
+    width: 600px;
+    height: 400px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background-color: bisque;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+button:hover{
+    background-color: brown;
+}

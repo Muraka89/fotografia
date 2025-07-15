@@ -1,0 +1,16 @@
+<div id="principal">
+    <h1>Data Binding</h1>
+    <h2>Binding en una direcció</h2>
+    <h3>Property Binding</h3>
+    <h3>Event Binding</h3>
+
+    <div>
+        <button (click)="colocarImagen(1)">Atardecer</button>
+        <button (click)="colocarImagen(2)">Arbol Nocturno</button>
+        <button (click)="colocarImagen(3)">Lago</button>
+
+    </div>
+
+    <img [src]="imagen" alt="No existe imagen">
+
+</div>
